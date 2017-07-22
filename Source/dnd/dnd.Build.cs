@@ -1,8 +1,8 @@
 using UnrealBuildTool;
 
-public class dnd : ModuleRules
+public class Dnd : ModuleRules
 {
-    public dnd(ReadOnlyTargetRules Target) : base(Target)
+    public Dnd(ReadOnlyTargetRules Target) : base(Target)
     {
         PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 

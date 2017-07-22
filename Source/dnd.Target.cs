@@ -1,12 +1,12 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class dndTarget : TargetRules
+public class DndTarget : TargetRules
 {
-    public dndTarget(TargetInfo Target) : base(Target)
+    public DndTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Game;
 
-        ExtraModuleNames.AddRange(new string[] { "dnd" });
+        ExtraModuleNames.AddRange(new string[] { "Dnd" });
     }
 }
